@@ -1,0 +1,11 @@
+.gridWrapper {
+  display: grid;
+  width: calc(100vw - (60vw / 3));
+  height: calc(100vh - 25vh);
+  padding-top: 25vh;
+  grid-template-columns: 20vw 20vw;
+  grid-template-rows: 15vh;
+  column-gap: calc(60vw / 3);
+  row-gap: 25vh;
+  padding-left: calc(60vw / 3);
+}

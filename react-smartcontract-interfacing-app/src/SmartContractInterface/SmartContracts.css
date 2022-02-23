@@ -1,0 +1,18 @@
+.contractWrapper {
+  height: 15vh;
+  line-height: 15vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: #1976d2;
+  border: 2px solid #1976d2;
+  border-radius: 4px;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.contractWrapper:hover {
+  background-color: #1976d2;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
