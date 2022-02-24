@@ -3,6 +3,26 @@
   background-color: rgb(255, 255, 255);
 }
 
+.appButton {
+  width: 100%;
+  height: 5vh;
+  line-height: 5vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: #1976d2;
+  border: 1px solid #1976d2;
+  border-radius: 4px;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.appButton:hover {
+  background-color: #1976d2;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

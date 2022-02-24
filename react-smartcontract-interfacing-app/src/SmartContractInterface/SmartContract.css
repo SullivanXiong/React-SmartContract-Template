@@ -1,0 +1,9 @@
+.smartContractWrapper {
+  display: grid;
+  width: 100vw;
+  padding-top: 10vh;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: 30vh;
+  padding-left: 10vw;
+  column-gap: 10vw;
+}
